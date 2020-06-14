@@ -1,6 +1,6 @@
 {
-  "name": "amocrm-js",
-  "version": "1.0.18",
+  "name": "amocrm-v4-js",
+  "version": "1.0.19",
   "description": "JS Library for AmoCRM",
   "main": "dist/AmoCRM.js",
   "directories": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UsefulWeb/AmoCRM.git"
+    "url": "git+https://github.com/tongrow/AmoCRM.git"
   },
   "keywords": [
     "crm",
