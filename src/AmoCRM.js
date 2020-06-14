@@ -40,7 +40,9 @@ class AmoCRM extends EventResource {
   get request() {
     return {
       get: ( url, data, options ) => this._connection.request( url, data, 'GET', options ),
-      post: ( url, data, options ) => this._connection.request( url, data, 'POST', options )
+      post: ( url, data, options ) => this._connection.request( url, data, 'POST', options ),
+      patch: ( url, data, options ) => this._connection.request( url, data, 'PATCH', options ),
+      delete: ( url, data, options ) => this._connection.request( url, data, 'DELETE', options )
     };
   }
 
